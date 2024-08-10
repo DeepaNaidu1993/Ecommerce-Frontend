@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap');
+
+
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #ffffffcc;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(182, 178, 178, 0.815);
+    border-radius: 50px;
+}
+body{
+    background-color: #f5eaf6 !important;
+    color: #5a2b5e !important
+}
+.sidebar::-webkit-scrollbar{
+    width: 8px;
+}
+.sidebar::-webkit-scrollbar-track{
+    background-color: #ffffffcc;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background-color: rgba(182, 178, 178, 0.815);
+    border-radius: 50px;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    height: 12vh;
+  }
+.card-text
+{
+    margin-bottom: 0rem !important;
+}
+.card-body
+{
+    padding: 0.2rem 0.4rem !important;
+    height: 160px;
+}
+.card-body-section-one{
+    height:50px;
+}
+.card-body-section-two{
+    height: 20px;
+}
+.card-body-section-three{
+    height: 25px;
+}
+.headings
+{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.box-shadow:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+}
+.star-color
+{
+    color:#FFD700
+}
+.sidebar
+{
+    position:sticky;
+    top:60px;
+}
+.form-check-label{
+    font-size: small;
+}
+.wishlist
+{
+    position: absolute;
+    right: 0;  
+}
+
+ .quick-look 
+{
+    background-color: rgba(255,255,255,.5) !important;
+    position:absolute;
+    bottom: 120px;
+    width: 100%;
+    display: none !important;
+
+}
+.box-shadow:hover .quick-look
+{
+    display: block !important;
+}
+.wishlist-selected{
+    color: red;
+}
+.modal-image{
+    height: 500px !important;
+}
+.size-button
+{
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+}
+.bag-button
+{
+    width: 70%;
+    color: white !important;
+    background-color: #a66fab !important;
+    
+}
+.product-button
+{
+    width: 70%;
+    color: white !important;
+    background-color: #a66fab !important;
+    
+}
+.carousel-control-next,.carousel-control-prev{
+    width: 4% !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 30px !important;
+}
+.carousel-inner{
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+.form{
+    height: 90vh;
+}
+.dropdown-menu{
+    left: -2rem !important;
+    padding: 0.0rem 0 !important;
+}
+.top-10{
+    top: 6rem;
+}
+.end-1{
+    right: 1rem;
+}
+.scroll{
+    height: 100px;
+}
+.fbottom{
+    min-height: 90vh;
+}
+.badge{
+    font-size: x-small !important;
+}
+.rounded-circle{
+    padding: 5px;
+}
+.loader1 {
+    display:inline-block;
+    font-size:0px;
+    padding:0px;
+ }
+ .loader1 span {
+    vertical-align:middle;
+    border-radius:100%;
+    
+    display:inline-block;
+    width:10px;
+    height:10px;
+    margin:3px 2px;
+    -webkit-animation:loader1 0.8s linear infinite alternate;
+    animation:loader1 0.8s linear infinite alternate;
+ }
+ .loader1 span:nth-child(1) {
+    -webkit-animation-delay:-1s;
+    animation-delay:-1s;
+   background:rgba(245, 103, 115,0.6);
+ }
+ .loader1 span:nth-child(2) {
+    -webkit-animation-delay:-0.8s;
+    animation-delay:-0.8s;
+   background:rgba(245, 103, 115,0.8);
+ }
+ .loader1 span:nth-child(3) {
+    -webkit-animation-delay:-0.26666s;
+    animation-delay:-0.26666s;
+   background:rgba(245, 103, 115,1);
+ }
+ .loader1 span:nth-child(4) {
+    -webkit-animation-delay:-0.8s;
+    animation-delay:-0.8s;
+   background:rgba(245, 103, 115,0.8);
+   
+ }
+ .loader1 span:nth-child(5) {
+    -webkit-animation-delay:-1s;
+    animation-delay:-1s;
+   background:rgba(245, 103, 115,0.4);
+ }
+ 
+ @keyframes loader1 {
+    from {transform: scale(0, 0);}
+    to {transform: scale(1, 1);}
+ }
+ @-webkit-keyframes loader1 {
+    from {-webkit-transform: scale(0, 0);}
+    to {-webkit-transform: scale(1, 1);}
+ }
+ 
+.scrollToTop{
+    bottom: 9vh;
+    right: 10px;
+}
+.transparentBtn{
+    border: 0px;
+    background-color: transparent;
+}
+
+.cart-progress1
+{
+    color: green;
+    text-decoration: underline;
+}
+.cart-progress2
+{
+    padding: 10px;
+    font-size: 10px 
+}
+.gpay{
+    height: 30px;
+    width: 30px;
+
+}
+
+.pay{
+    height: 30px;
+    width: 30px;
+    transform: rotate(270deg);
+
+}
+.upi{
+    height: 30px;
+    width: 30px;
+    transform: rotate(270deg);
+
+}
+.end-page
+{
+    height: 70vh;
+}
+.bg-navbar{
+    background-color: #5a2b5e;
+}
+.accordion-button:not(.collapsed) {
+    color: #ffffff !important;
+    background-color:#5a2b5e !important;
+}
+
+.bg-btn{
+    background-color: #a66fab !important;
+}
+.btn-primary{
+    background-color: #a66fab !important ;
+}
+.logo{
+    font-family: 'Dr Sugiyama';
+    color: white;
+    font-size: xx-large;
+}
+.logo1{
+    
+    color: white;
+    letter-spacing: 3px;
+    font-size: 8px !important;
+}
+.position-relative{
+    color: white !important;
+}
+.dropdown-item{
+    color: #5a2b5e !important ;
+}
+.btn-logout{
+    background-color: #5a2b5e !important;
+    color: white !important;
+}
